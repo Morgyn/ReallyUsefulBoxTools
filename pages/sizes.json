@@ -1,0 +1,810 @@
+[
+  {
+    "name": "0.07 litre Really Useful Box",
+    "external": {
+      "width": 90,
+      "height": 65,
+      "depth": 30
+    },
+    "internal": {
+      "width": 61,
+      "height": 48,
+      "depth": 24
+    },
+    "weight": 24
+  },
+  {
+    "name": "0.14 litre Really Useful Box",
+    "external": {
+      "width": 90,
+      "height": 65,
+      "depth": 55
+    },
+    "internal": {
+      "width": 64,
+      "height": 48,
+      "depth": 42
+    },
+    "weight": 35
+  },
+  {
+    "name": "0.2 litre Really Useful Box",
+    "external": {
+      "width": 120,
+      "height": 85,
+      "depth": 45
+    },
+    "internal": {
+      "width": 90,
+      "height": 65,
+      "depth": 32
+    },
+    "weight": 46
+  },
+  {
+    "name": "0.3 litre Really Useful Box",
+    "external": {
+      "width": 120,
+      "height": 85,
+      "depth": 65
+    },
+    "internal": {
+      "width": 90,
+      "height": 65,
+      "depth": 55
+    },
+    "weight": 54
+  },
+  {
+    "name": "0.35 litre Really Useful Box",
+    "external": {
+      "width": 155,
+      "height": 100,
+      "depth": 40
+    },
+    "internal": {
+      "width": 120,
+      "height": 80,
+      "depth": 35
+    },
+    "weight": 67
+  },
+  {
+    "name": "0.55 litre Really Useful Box",
+    "external": {
+      "width": 220,
+      "height": 100,
+      "depth": 40
+    },
+    "internal": {
+      "width": 185,
+      "height": 80,
+      "depth": 30
+    },
+    "weight": 102
+  },
+  {
+    "name": "0.7 litre Really Useful Box",
+    "external": {
+      "width": 155,
+      "height": 100,
+      "depth": 80
+    },
+    "internal": {
+      "width": 120,
+      "height": 80,
+      "depth": 70
+    },
+    "weight": 90
+  },
+  {
+    "name": "0.75 litre Really Useful Box",
+    "external": {
+      "width": 195,
+      "height": 135,
+      "depth": 55
+    },
+    "internal": {
+      "width": 150,
+      "height": 110,
+      "depth": 45
+    },
+    "weight": 143
+  },
+  {
+    "name": "0.8 litre Really Useful Box",
+    "external": {
+      "width": 355,
+      "height": 100,
+      "depth": 40
+    },
+    "internal": {
+      "width": 320,
+      "height": 80,
+      "depth": 30
+    },
+    "weight": 155
+  },
+  {
+    "name": "0.9 litre Really Useful Box",
+    "external": {
+      "width": 220,
+      "height": 100,
+      "depth": 70
+    },
+    "internal": {
+      "width": 185,
+      "height": 80,
+      "depth": 60
+    },
+    "weight": 130
+  },
+  {
+    "name": "1.5 litre Really Useful Box",
+    "external": {
+      "width": 355,
+      "height": 100,
+      "depth": 70
+    },
+    "internal": {
+      "width": 320,
+      "height": 80,
+      "depth": 60
+    },
+    "weight": 195
+  },
+  {
+    "name": "1.6 litre Really Useful Box",
+    "external": {
+      "width": 195,
+      "height": 135,
+      "depth": 110
+    },
+    "internal": {
+      "width": 150,
+      "height": 110,
+      "depth": 95
+    },
+    "weight": 200
+  },
+  {
+    "name": "1.7 litre folding Really Useful Box",
+    "external": {
+      "width": 180,
+      "height": 135,
+      "depth": 90
+    },
+    "internal": {
+      "width": 160,
+      "height": 115,
+      "depth": 87
+    },
+    "weight": 105
+  },
+  {
+    "name": "1.75 litre Really Useful Box",
+    "external": {
+      "width": 245,
+      "height": 180,
+      "depth": 78
+    },
+    "internal": {
+      "width": 205,
+      "height": 150,
+      "depth": 60
+    },
+    "weight": 306
+  },
+  {
+    "name": "2.1 litre Really Useful Box",
+    "external": {
+      "width": 240,
+      "height": 130,
+      "depth": 125
+    },
+    "internal": {
+      "width": 190,
+      "height": 100,
+      "depth": 104
+    },
+    "weight": 241
+  },
+  {
+    "name": "2.5 litre Really Useful Box",
+    "external": {
+      "width": 340,
+      "height": 200,
+      "depth": 70
+    },
+    "internal": {
+      "width": 290,
+      "height": 160,
+      "depth": 50
+    },
+    "weight": 365
+  },
+  {
+    "name": "3 litre Really Useful Box",
+    "external": {
+      "width": 245,
+      "height": 180,
+      "depth": 160
+    },
+    "internal": {
+      "width": 190,
+      "height": 143,
+      "depth": 120
+    },
+    "weight": 500
+  },
+  {
+    "name": "4 litre Really Useful Box",
+    "external": {
+      "width": 395,
+      "height": 255,
+      "depth": 88
+    },
+    "internal": {
+      "width": 348,
+      "height": 220,
+      "depth": 68
+    },
+    "weight": 700
+  },
+  {
+    "name": "5 litre Really Useful Box",
+    "external": {
+      "width": 340,
+      "height": 200,
+      "depth": 125
+    },
+    "internal": {
+      "width": 285,
+      "height": 160,
+      "depth": 105
+    },
+    "weight": 540
+  },
+  {
+    "name": "5 litre XL Really Useful Box",
+    "external": {
+      "width": 340,
+      "height": 200,
+      "depth": 150
+    },
+    "internal": {
+      "width": 285,
+      "height": 160,
+      "depth": 135
+    },
+    "weight": 570
+  },
+  {
+    "name": "6 litre Really Useful Box",
+    "external": {
+      "width": 465,
+      "height": 270,
+      "depth": 85
+    },
+    "internal": {
+      "width": 400,
+      "height": 225,
+      "depth": 70
+    },
+    "weight": 890
+  },
+  {
+    "name": "6.5 litre Really Useful Box",
+    "external": {
+      "width": 430,
+      "height": 180,
+      "depth": 160
+    },
+    "internal": {
+      "width": 380,
+      "height": 143,
+      "depth": 120
+    },
+    "weight": 668
+  },
+  {
+    "name": "7 litre Really Useful Box",
+    "external": {
+      "width": 400,
+      "height": 350,
+      "depth": 85
+    },
+    "internal": {
+      "width": 340,
+      "height": 307,
+      "depth": 70
+    },
+    "weight": 800
+  },
+  {
+    "name": "8 litre open front Really Useful Box",
+    "external": {
+      "width": 340,
+      "height": 200,
+      "depth": 175
+    },
+    "internal": {
+      "width": 290,
+      "height": 165,
+      "depth": 153
+    },
+    "weight": 590
+  },
+  {
+    "name": "9 litre Really Useful Box",
+    "external": {
+      "width": 395,
+      "height": 255,
+      "depth": 155
+    },
+    "internal": {
+      "width": 335,
+      "height": 210,
+      "depth": 140
+    },
+    "weight": 900
+  },
+  {
+    "name": "9 litre XL Really Useful Box (7\" small)",
+    "external": {
+      "width": 395,
+      "height": 255,
+      "depth": 205
+    },
+    "internal": {
+      "width": 335,
+      "height": 210,
+      "depth": 180
+    },
+    "weight": 1000
+  },
+  {
+    "name": "10 litre Really Useful Box",
+    "external": {
+      "width": 520,
+      "height": 340,
+      "depth": 85
+    },
+    "internal": {
+      "width": 460,
+      "height": 298,
+      "depth": 70
+    },
+    "weight": 1200
+  },
+  {
+    "name": "11 litre Really Useful Box",
+    "external": {
+      "width": 456,
+      "height": 356,
+      "depth": 120
+    },
+    "internal": {
+      "width": 375,
+      "height": 310,
+      "depth": 91
+    },
+    "weight": 1040
+  },
+  {
+    "name": "11 litre XL Really Useful Box",
+    "external": {
+      "width": 455,
+      "height": 356,
+      "depth": 148
+    },
+    "internal": {
+      "width": 375,
+      "height": 310,
+      "depth": 125
+    },
+    "weight": 1215
+  },
+  {
+    "name": "12 litre Really Useful Box",
+    "external": {
+      "width": 465,
+      "height": 270,
+      "depth": 150
+    },
+    "internal": {
+      "width": 415,
+      "height": 235,
+      "depth": 140
+    },
+    "weight": 998
+  },
+  {
+    "name": "14 litre open front Really Useful Box",
+    "external": {
+      "width": 395,
+      "height": 255,
+      "depth": 210
+    },
+    "internal": {
+      "width": 336,
+      "height": 214,
+      "depth": 190
+    },
+    "weight": 950
+  },
+  {
+    "name": "18 litre Really Useful Box",
+    "external": {
+      "width": 480,
+      "height": 390,
+      "depth": 200
+    },
+    "internal": {
+      "width": 395,
+      "height": 335,
+      "depth": 170
+    },
+    "weight": 1300
+  },
+  {
+    "name": "18 litre XL Really Useful Box (7\" medium)",
+    "external": {
+      "width": 480,
+      "height": 390,
+      "depth": 230
+    },
+    "internal": {
+      "width": 395,
+      "height": 335,
+      "depth": 200
+    },
+    "weight": 1500
+  },
+  {
+    "name": "19 litre Really Useful Box",
+    "external": {
+      "width": 395,
+      "height": 255,
+      "depth": 290
+    },
+    "internal": {
+      "width": 315,
+      "height": 205,
+      "depth": 270
+    },
+    "weight": 1200
+  },
+  {
+    "name": "19 litre XL Really Useful Box (LP small)",
+    "external": {
+      "width": 395,
+      "height": 255,
+      "depth": 330
+    },
+    "internal": {
+      "width": 315,
+      "height": 205,
+      "depth": 310
+    },
+    "weight": 1300
+  },
+  {
+    "name": "20 litre Really Useful Box",
+    "external": {
+      "width": 710,
+      "height": 440,
+      "depth": 120
+    },
+    "internal": {
+      "width": 610,
+      "height": 370,
+      "depth": 90
+    },
+    "weight": 2150
+  },
+  {
+    "name": "21 litre Really Useful Box",
+    "external": {
+      "width": 450,
+      "height": 350,
+      "depth": 200
+    },
+    "internal": {
+      "width": 370,
+      "height": 300,
+      "depth": 175
+    },
+    "weight": 1330
+  },
+  {
+    "name": "21 litre XL Really Useful Box",
+    "external": {
+      "width": 450,
+      "height": 350,
+      "depth": 230
+    },
+    "internal": {
+      "width": 370,
+      "height": 300,
+      "depth": 210
+    },
+    "weight": 1520
+  },
+  {
+    "name": "22 litre Really Useful Box",
+    "external": {
+      "width": 820,
+      "height": 255,
+      "depth": 155
+    },
+    "internal": {
+      "width": 750,
+      "height": 210,
+      "depth": 140
+    },
+    "weight": 1410
+  },
+  {
+    "name": "24 litre Really Useful Box",
+    "external": {
+      "width": 465,
+      "height": 270,
+      "depth": 290
+    },
+    "internal": {
+      "width": 380,
+      "height": 230,
+      "depth": 270
+    },
+    "weight": 1450
+  },
+  {
+    "name": "24.5 litre Really Useful Box",
+    "external": {
+      "width": 600,
+      "height": 400,
+      "depth": 155
+    },
+    "internal": {
+      "width": 530,
+      "height": 325,
+      "depth": 130
+    },
+    "weight": 1576
+  },
+  {
+    "name": "25 litre Really Useful Box",
+    "external": {
+      "width": 395,
+      "height": 255,
+      "depth": 360
+    },
+    "internal": {
+      "width": 330,
+      "height": 220,
+      "depth": 345
+    },
+    "weight": 1362
+  },
+  {
+    "name": "32 litre folding Really Useful Box",
+    "external": {
+      "width": 470,
+      "height": 342,
+      "depth": 234
+    },
+    "internal": {
+      "width": 443,
+      "height": 315,
+      "depth": 225
+    },
+    "weight": 945
+  },
+  {
+    "name": "33 litre Really Useful Box",
+    "external": {
+      "width": 710,
+      "height": 440,
+      "depth": 165
+    },
+    "internal": {
+      "width": 605,
+      "height": 370,
+      "depth": 145
+    },
+    "weight": 2233
+  },
+  {
+    "name": "35 litre Really Useful Box",
+    "external": {
+      "width": 480,
+      "height": 390,
+      "depth": 310
+    },
+    "internal": {
+      "width": 370,
+      "height": 310,
+      "depth": 280
+    },
+    "weight": 2100
+  },
+  {
+    "name": "35 litre folding Really Useful Box",
+    "external": {
+      "width": 485,
+      "height": 390,
+      "depth": 120
+    },
+    "internal": null,
+    "weight": 2100
+  },
+  {
+    "name": "35 litre XL Really Useful Box (LP medium)",
+    "external": {
+      "width": 480,
+      "height": 390,
+      "depth": 345
+    },
+    "internal": {
+      "width": 370,
+      "height": 310,
+      "depth": 310
+    },
+    "weight": 2300
+  },
+  {
+    "name": "42 litre Really Useful Box",
+    "external": {
+      "width": 520,
+      "height": 440,
+      "depth": 310
+    },
+    "internal": {
+      "width": 405,
+      "height": 365,
+      "depth": 280
+    },
+    "weight": 2700
+  },
+  {
+    "name": "45 litre folding Really Useful Box",
+    "external": {
+      "width": 390,
+      "height": 570,
+      "depth": 285
+    },
+    "internal": {
+      "width": 360,
+      "height": 520,
+      "depth": 280
+    },
+    "weight": 1490
+  },
+  {
+    "name": "48 litre Really Useful Box",
+    "external": {
+      "width": 600,
+      "height": 400,
+      "depth": 315
+    },
+    "internal": {
+      "width": 530,
+      "height": 325,
+      "depth": 289
+    },
+    "weight": 2575
+  },
+  {
+    "name": "48 litre XL Really Useful Box",
+    "external": {
+      "width": 600,
+      "height": 400,
+      "depth": 350
+    },
+    "internal": {
+      "width": 530,
+      "height": 325,
+      "depth": 330
+    },
+    "weight": 2900
+  },
+  {
+    "name": "50 litre Really Useful Box",
+    "external": {
+      "width": 710,
+      "height": 440,
+      "depth": 230
+    },
+    "internal": {
+      "width": 605,
+      "height": 370,
+      "depth": 200
+    },
+    "weight": 2700
+  },
+  {
+    "name": "64 litre Really Useful Box",
+    "external": {
+      "width": 710,
+      "height": 440,
+      "depth": 310
+    },
+    "internal": {
+      "width": 605,
+      "height": 370,
+      "depth": 280
+    },
+    "weight": 3100
+  },
+  {
+    "name": "64 litre open front Really Useful Box",
+    "external": {
+      "width": 710,
+      "height": 440,
+      "depth": 310
+    },
+    "internal": {
+      "width": 605,
+      "height": 370,
+      "depth": 280
+    },
+    "weight": 3100
+  },
+  {
+    "name": "70 litre Really Useful Box",
+    "external": {
+      "width": 810,
+      "height": 620,
+      "depth": 225
+    },
+    "internal": {
+      "width": 710,
+      "height": 545,
+      "depth": 190
+    },
+    "weight": 4055
+  },
+  {
+    "name": "77 litre Really Useful Box",
+    "external": {
+      "width": 1201,
+      "height": 270,
+      "depth": 355
+    },
+    "internal": {
+      "width": 1135,
+      "height": 232,
+      "depth": 285
+    },
+    "weight": 3935
+  },
+  {
+    "name": "84 litre Really Useful Box",
+    "external": {
+      "width": 710,
+      "height": 440,
+      "depth": 380
+    },
+    "internal": {
+      "width": 605,
+      "height": 370,
+      "depth": 355
+    },
+    "weight": 3300
+  },
+  {
+    "name": "145 litre Really Useful Box",
+    "external": {
+      "width": 810,
+      "height": 620,
+      "depth": 430
+    },
+    "internal": {
+      "width": 710,
+      "height": 545,
+      "depth": 400
+    },
+    "weight": 4164
+  }
+]

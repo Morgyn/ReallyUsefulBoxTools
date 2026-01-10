@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Find Stackable Boxes</title>
+	<style>
+		body{font-family:Segoe UI,Arial,Helvetica,sans-serif;background:#f5f7fb;margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center}
+		.container{width:95%;max-width:1100px;margin:32px auto;background:#fff;padding:20px;border-radius:10px;box-shadow:0 6px 20px rgba(32,40,60,0.12)}
+		h1{margin-top:0;text-align:center;color:#19304a}
+		.controls{display:flex;justify-content:flex-end;gap:8px;align-items:center;margin-bottom:12px}
+		button{background:#1967d2;color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer;font-weight:600}
+		button.secondary{background:#e6eefc;color:#1967d2}
+		table{border-collapse:collapse;width:100%;background:#fff}
+		th,td{border:1px solid #e6eaf0;padding:8px 10px;text-align:left;font-size:14px}
+		thead th{background:linear-gradient(180deg,#f8fafc,#eef4fb);color:#19304a}
+		tbody tr:hover{background:#fbfcff}
+		.error{color:#900}
+		.muted{color:#667085;font-size:13px}
+		.selected{background:#fff9e6}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Really Useful Boxes — Sizes</h1>
+		<div class="controls">
+			<button id="showAll">Show all</button>
+			<span id="status"></span>
+		</div>
+
+		<table id="sizesTable">
+			<thead>
+				<tr>
+					<th rowspan="2">Name</th>
+					<th colspan="3">External (mm)</th>
+					<th colspan="3">Internal (mm)</th>
+					<th rowspan="2">Weight (g)</th>
+					<th rowspan="2">Actions</th>
+				</tr>
+				<tr>
+					<th>Length</th>
+					<th>Width</th>
+					<th>Height</th>
+					<th>Length</th>
+					<th>Width</th>
+					<th>Height</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</div>
+
+	<script>
+		// Inline script: load sizes.json and populate table
+		async function loadAndRender() {
+			const status = document.getElementById('status');
+			try {
+				status.textContent = 'Loading sizes.json...';
+				const resp = await fetch('sizes.json', {cache: 'no-store'});
+				if (!resp.ok) throw new Error('HTTP ' + resp.status);
+				const items = await resp.json();
+
+				const tbody = document.querySelector('#sizesTable tbody');
+				tbody.innerHTML = '';
+				for (const it of items) {
+					const tr = document.createElement('tr');
+					const ext = it.external || {};
+					const inte = it.internal || {};
+					const create = (v) => {
+						const td = document.createElement('td');
+						td.textContent = v == null ? '' : v;
+						return td;
+					};
+
+					tr.appendChild(create(it.name));
+					tr.appendChild(create(ext.width));
+					tr.appendChild(create(ext.height));
+					tr.appendChild(create(ext.depth));
+					if (inte === null) {
+						tr.appendChild(create(''));
+						tr.appendChild(create(''));
+						tr.appendChild(create(''));
+					} else {
+						tr.appendChild(create(inte.width));
+						tr.appendChild(create(inte.height));
+						tr.appendChild(create(inte.depth));
+					}
+					tr.appendChild(create(it.weight));
+					// Actions column: Find Stackables
+					const actTd = document.createElement('td');
+					const btn = document.createElement('button');
+					btn.textContent = 'Find Stackables';
+					btn.className = 'secondary';
+					if (!ext.width || !ext.height) btn.disabled = true;
+					btn.addEventListener('click', () => filterByLW(ext.width, ext.height));
+					actTd.appendChild(btn);
+					tr.appendChild(actTd);
+					tbody.appendChild(tr);
+				}
+
+				status.textContent = items.length + ' items loaded.';
+			} catch (err) {
+				status.innerHTML = '<span class="error">Failed to load sizes.json: ' + String(err) + '</span>';
+			}
+		}
+
+		// Filter table to show only rows with matching external Length & Width
+		function filterByLW(len, wid) {
+			const rows = document.querySelectorAll('#sizesTable tbody tr');
+			let shown = 0;
+			rows.forEach(r => {
+				const cellLen = r.cells[1].textContent.trim();
+				const cellWid = r.cells[2].textContent.trim();
+				const match = cellLen !== '' && cellWid !== '' && Number(cellLen) === Number(len) && Number(cellWid) === Number(wid);
+				r.style.display = match ? '' : 'none';
+				if (match) { r.classList.add('selected'); shown++; } else r.classList.remove('selected');
+			});
+			const status = document.getElementById('status');
+			status.textContent = shown + ' match(es) for ' + len + ' x ' + wid + ' mm';
+		}
+
+		function showAll() {
+			const rows = document.querySelectorAll('#sizesTable tbody tr');
+			rows.forEach(r => { r.style.display = ''; r.classList.remove('selected'); });
+			document.getElementById('status').textContent = '';
+		}
+
+		document.getElementById('showAll').addEventListener('click', showAll);
+		window.addEventListener('DOMContentLoaded', loadAndRender);
+	</script>
+</body>
+</html>
