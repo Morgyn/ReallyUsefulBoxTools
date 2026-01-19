@@ -189,7 +189,7 @@
       "depth": 78
     },
     "internal": {
-      "width": 205,
+      "width": 195,
       "height": 150,
       "depth": 60
     },
@@ -221,7 +221,7 @@
       "height": 160,
       "depth": 50
     },
-    "weight": 365
+    "weight": 350
   },
   {
     "name": "3 litre Really Useful Box",
@@ -235,7 +235,7 @@
       "height": 143,
       "depth": 120
     },
-    "weight": 500
+    "weight": 420
   },
   {
     "name": "4 litre Really Useful Box",
@@ -249,7 +249,21 @@
       "height": 220,
       "depth": 68
     },
-    "weight": 700
+    "weight": 600
+  },
+  {
+    "name": "4 litre XL Really Useful Box",
+    "external": {
+      "width": 395,
+      "height": 255,
+      "depth": 135
+    },
+    "internal": {
+      "width": 348,
+      "height": 220,
+      "depth": 118
+    },
+    "weight": 800
   },
   {
     "name": "5 litre Really Useful Box",
@@ -263,7 +277,7 @@
       "height": 160,
       "depth": 105
     },
-    "weight": 540
+    "weight": 490
   },
   {
     "name": "5 litre XL Really Useful Box",
@@ -347,7 +361,7 @@
       "height": 210,
       "depth": 140
     },
-    "weight": 900
+    "weight": 810
   },
   {
     "name": "9 litre XL Really Useful Box (7\" small)",
@@ -417,7 +431,7 @@
       "height": 235,
       "depth": 140
     },
-    "weight": 998
+    "weight": 930
   },
   {
     "name": "14 litre open front Really Useful Box",
@@ -445,7 +459,7 @@
       "height": 335,
       "depth": 170
     },
-    "weight": 1300
+    "weight": 1550
   },
   {
     "name": "18 litre XL Really Useful Box (7\" medium)",
@@ -515,7 +529,7 @@
       "height": 300,
       "depth": 175
     },
-    "weight": 1330
+    "weight": 1000
   },
   {
     "name": "21 litre XL Really Useful Box",
@@ -534,7 +548,7 @@
   {
     "name": "22 litre Really Useful Box",
     "external": {
-      "width": 820,
+      "width": 800,
       "height": 255,
       "depth": 155
     },
@@ -543,7 +557,7 @@
       "height": 210,
       "depth": 140
     },
-    "weight": 1410
+    "weight": 1480
   },
   {
     "name": "24 litre Really Useful Box",
@@ -557,7 +571,7 @@
       "height": 230,
       "depth": 270
     },
-    "weight": 1450
+    "weight": 1380
   },
   {
     "name": "24.5 litre Really Useful Box",
@@ -568,10 +582,10 @@
     },
     "internal": {
       "width": 530,
-      "height": 325,
+      "height": 350,
       "depth": 130
     },
-    "weight": 1576
+    "weight": 1500
   },
   {
     "name": "25 litre Really Useful Box",
@@ -644,12 +658,12 @@
     "external": {
       "width": 480,
       "height": 390,
-      "depth": 345
+      "depth": 355
     },
     "internal": {
       "width": 370,
       "height": 310,
-      "depth": 310
+      "depth": 315
     },
     "weight": 2300
   },
@@ -665,18 +679,18 @@
       "height": 365,
       "depth": 280
     },
-    "weight": 2700
+    "weight": 2520
   },
   {
     "name": "45 litre folding Really Useful Box",
     "external": {
-      "width": 390,
-      "height": 570,
+      "width": 570,
+      "height": 390,
       "depth": 285
     },
     "internal": {
-      "width": 360,
-      "height": 520,
+      "width": 520,
+      "height": 360,
       "depth": 280
     },
     "weight": 1490
@@ -721,7 +735,7 @@
       "height": 370,
       "depth": 200
     },
-    "weight": 2700
+    "weight": 2620
   },
   {
     "name": "64 litre Really Useful Box",
@@ -749,7 +763,7 @@
       "height": 370,
       "depth": 280
     },
-    "weight": 3100
+    "weight": 3044
   },
   {
     "name": "70 litre Really Useful Box",
@@ -763,7 +777,7 @@
       "height": 545,
       "depth": 190
     },
-    "weight": 4055
+    "weight": 4240
   },
   {
     "name": "77 litre Really Useful Box",
@@ -775,9 +789,9 @@
     "internal": {
       "width": 1135,
       "height": 232,
-      "depth": 285
+      "depth": 340
     },
-    "weight": 3935
+    "weight": 3765
   },
   {
     "name": "84 litre Really Useful Box",
@@ -791,7 +805,7 @@
       "height": 370,
       "depth": 355
     },
-    "weight": 3300
+    "weight": 3380
   },
   {
     "name": "145 litre Really Useful Box",
@@ -805,6 +819,6 @@
       "height": 545,
       "depth": 400
     },
-    "weight": 4164
+    "weight": 5500
   }
 ]
