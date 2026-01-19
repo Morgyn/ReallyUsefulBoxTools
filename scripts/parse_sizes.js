@@ -30,8 +30,10 @@ async function main() {
   const res = await axios.get(url, { timeout: 30000, headers: { 'User-Agent': 'github-action-parser/1.0' } });
   const $ = cheerio.load(res.data);
 
-  const table = $('table.mce-item-table, table.bluetable.mce-item-table').first();
-  if (!table || table.length === 0) throw new Error('Could not find table with class mce-item-table');
+  // The live site (and example.html) use a plain 'bluetable' class. Keep fallbacks
+  // for older variants that include 'mce-item-table'.
+  const table = $('table.bluetable, table.mce-item-table, table.bluetable.mce-item-table').first();
+  if (!table || table.length === 0) throw new Error('Could not find sizes table (expected class "bluetable" or "mce-item-table")');
 
   const items = [];
   table.find('tr').each((i, tr) => {
